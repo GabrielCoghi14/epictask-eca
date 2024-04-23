@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/style.css">
-<script src="./js/cadastrar.js" defer></script>
+<script src="./js/perfil.js"></script>
     <title>EpicTask</title>
 </head>
 <body>
@@ -17,28 +17,22 @@
 
 
     <form action="">
-        <h2 class="nes-text is-primary">Adicione na lista de desejo</h2>
+        <h2 class="nes-text is-primary">Entre na sua conta</h2>
         <div class="nes-field">
-            <label for="titulo">Nome do jogo</label>
-            <input type="text" id="titulo" class="nes-input">
-            <span id="titulo-erro" class="nes-text is-error"></span>
+            <label for="usuario">Nome de usuário</label>
+            <input type="text" id="usuario" class="nes-input">
+            <span id="usuario-erro" class="nes-text is-error"></span>
         </div>
 
         <div class="nes-field">
-            <label for="descricao">Anotações</label>
-            <textarea id="descricao" class="nes-textarea"></textarea>
-            <span id="descricao-erro" class="nes-text is-error"></span>
-        </div>
-
-        <div class="nes-field">
-            <label for="pontos">Valor</label>
-            <input type="number" id="pontos" class="nes-input">
-            <span id="pontos-erro" class="nes-text is-error"></span>
+            <label for="senha">Senha</label>
+            <textarea id="senha" class="nes-textarea"></textarea>
+            <span id="senha-erro" class="nes-text is-error"></span>
         </div>
         
         <div class="acoes">
             <a href="/index.html" class="nes-btn is-error">voltar para página principal</a>
-            <button type="button" id="botao-cadastrar" class="nes-btn is-primary">adicionar</button>
+            <button type="button" id="botao-perfil" class="nes-btn is-primary">entrar</button>
         </div>
 
     

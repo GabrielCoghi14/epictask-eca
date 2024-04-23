@@ -24,7 +24,7 @@ function validar(tarefa){
     }
     if(tarefa.pontos.trim() == "" || tarefa.pontos.lenght > 0){
         document.querySelector("#pontos").classList.add("is-error")
-        document.querySelector("#pontos-erro").innerText= "Pontos deve ser maior que 0"
+        document.querySelector("#pontos-erro").innerText= "Valor deve ser maior que 0"
     }
 }
 
